@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
       //  Display the modal
       modal.style.display = 'block';
   
-      // Clear the form inputs
+      // Clear the form inputsss
       studentNameInput.value = '';
       personalMessageInput.value = '';
       if(courseNameInput) courseNameInput.value = '';
@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
     //  🚨 Close the modal when the close button is clicked
     closeModal.addEventListener('click', function () {
+        modal.style.display = 'none';
     });
   });
   
